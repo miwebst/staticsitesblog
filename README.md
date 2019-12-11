@@ -1,1 +1,1 @@
-# staticsitesblog
+# Static Sites Blog
