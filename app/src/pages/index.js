@@ -2,19 +2,30 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <h1>Welcome to the Blog!</h1>
+    <p>This page is pretty meta...but you should try out static sites!</p>
+    <p>What are you looking for?</p>
+    <div>
+      <Link to="/static/">Working with Purely Static Sites</Link>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <div>
+      <Link to="/angular/">Working with Angular</Link>
+    </div>
+    <div>
+      <Link to="/react/">Working with React</Link>
+    </div>
+    <div>
+      <Link to="/vue/">Working with Vue</Link>
+    </div>
+    <div>
+      <Link to="/deploy/">Advanced Deployment Options</Link>
+    </div>
+    <div></div>
   </Layout>
 )
 
