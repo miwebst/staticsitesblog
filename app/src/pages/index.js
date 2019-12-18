@@ -10,7 +10,7 @@ const IndexPage = () => (
     <h1>Welcome to the Blog!</h1>
     <p>This page is pretty meta...but you should try out static sites!</p>
     <p>What are you looking for?</p>
-    <p>Test modification</p>
+
     <div>
       <Link to="/static/">Working with Purely Static Sites</Link>
     </div>
