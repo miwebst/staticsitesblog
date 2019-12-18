@@ -21,7 +21,7 @@ const AngularPage = () => (
       <li>git push -u origin master</li>
     </ol>
     <p><a href="https://github.com/BrandonHopcraft/staticsitesangularapp">Example repository</a></p>
-    <p>Then setup the github workflow file with 'app/dist/testapp' as the app location</p>
+    <p>Then <Link to="/workflows/">setup the github workflow file</Link> with 'app/dist/testapp' as the app location</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
