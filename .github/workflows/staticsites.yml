@@ -22,7 +22,7 @@ jobs:
         npx gatsby build
     - uses: joslinmicrosoft/staticsitesaction@master
       with:
-        azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN }}
+        azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN_CANARY }}
         action: 'upload'         
         app_artifact_location: 'app/public'
         api_artifact_location: ''
@@ -34,5 +34,5 @@ jobs:
     steps:
     - uses: joslinmicrosoft/staticsitesaction@master
       with:
-        azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN }}
+        azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN_CANARY }}
         action: 'close'
