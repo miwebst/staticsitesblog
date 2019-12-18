@@ -1,16 +1,9 @@
 name: Azure Pages CI
-on:
-  push:
-    branches:
-    - master
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-    - master
+on: [push, pull_request]
 
 jobs:
   azure_pages_build_and_upload_job:
-    if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
+#     if: github.event_name == 'push' || (github.event_name == 'pull_request' && github.event.action != 'closed')
     runs-on: ubuntu-latest
     name: Azure Pages Build And Deploy
     steps:
@@ -28,7 +21,7 @@ jobs:
         api_artifact_location: ''
   
   azure_pages_close_pr_job:
-    if: github.event_name == 'pull_request' && github.event.action == 'closed'
+#     if: github.event_name == 'pull_request' && github.event.action == 'closed'
     runs-on: ubuntu-latest
     name: Azure Pages Close Pull Request Job
     steps:
