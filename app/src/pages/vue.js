@@ -19,6 +19,8 @@ const VuePage = () => (
       <li>git remote add origin https://github.com/[your username]/[project name].git</li>
       <li>git push -u origin master</li>
     </ol>
+    <p><a href="https://github.com/BrandonHopcraft/staticsitesvueapp">Example repository</a></p>
+    <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
