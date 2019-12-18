@@ -20,7 +20,7 @@ jobs:
         cd app
         npm install
         npx gatsby build
-    - uses: miwebst/staticsitesaction@master
+    - uses: joslinmicrosoft/staticsitesaction@master
       with:
         azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN }}
         action: 'upload'         
@@ -32,7 +32,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Azure Pages Close Pull Request Job
     steps:
-    - uses: miwebst/staticsitesaction@master
+    - uses: joslinmicrosoft/staticsitesaction@master
       with:
         azure_pages_api_token: ${{ secrets.AZURE_PAGES_API_TOKEN }}
         action: 'close'
