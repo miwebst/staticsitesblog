@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 
 const AngularPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi this is a page about Angular!</h1>
+    <SEO title="Using Angular with Static Sites" />
+    <h1>Using Angular with Static Sites</h1>
     
     <p>If angular is not installed, install it with: npm install -g @angular/cli</p>
     <p>Here are some instructions for setting up the repository.</p>

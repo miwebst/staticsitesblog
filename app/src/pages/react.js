@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 
 const ReactPage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Using Angular with Static Sites</h1>
+    <SEO title="Using React with Static Sites" />
+    <h1>Using React with Static Sites</h1>
 
     <p>Here are some instructions for setting up the repository:</p>
     <ol>

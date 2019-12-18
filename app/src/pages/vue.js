@@ -5,8 +5,9 @@ import SEO from "../components/seo"
 
 const VuePage = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Using Angular with Static Sites</h1>
+    <SEO title="Using Vue with Static Sites" />
+    <h1>Using Vue with Static Sites</h1>
+
     <p>If vue is not installed, install it with: npm install -g @vue/cli</p>
     <p>Here are some instructions for setting up the repository:</p>
     <ol>
