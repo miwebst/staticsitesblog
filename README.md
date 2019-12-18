@@ -1,1 +1,1 @@
-# Static Sites Blog
+# Static Sites Blog 2
