@@ -26,6 +26,9 @@ const IndexPage = () => (
     <div>
       <Link to="/deploy/">Advanced Deployment Options</Link>
     </div>
+    <div>
+      <Link to="/workflow/">Building the workflow yaml file</Link>
+    </div>
     <div></div>
   </Layout>
 )
